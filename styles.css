@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #652ebf;
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#game {
+    display: flex;
+    min-height: 100px;
+    align-items: flex-start;
+}
+
+#points {
+    margin-left: 5%;
+    display: table;
+    table-layout: fixed;
+}
+
+#points>th {
+    border-bottom: 5px solid white;
+}
+
+#points tr:nth-child(2) {
+    color: #ffe33d;
+}
+
+#points>th>td {
+    padding: 10%;
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.genre-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#gameStartContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+#gameStartContainer input {
+    margin-right: 5%;
+    border: 5px solid  	#ffe33d;
+    border-radius: 15px;
+    color: #ef0041;
+    padding-left: 2%;
+}
+
+#gameStartContainer button {
+    padding: 0.5% 3%;
+    background-color:#ffe33d;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+.card {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: black;
+    /* background-color: #4e4eac; */
+    border: solid #ffe33d 3px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.dj {
+    color: #1f823d;
+}
+
+.card.init {
+    font-size: 50px;
+}
+
+.card.open>div {
+    font-size: 15px;
+}
+
+.card.answered>div {
+    font-size: 15px;
+}
+
+.card.answered>span {
+    font-size: 15px;
+}
+
+.card.answered>span.correct {
+    font-weight: 500;
+    color: green;
+}
+
+.card.answered>span.wrong {
+    color: red;
+}
+
+.button-container {
+    color: white;
+    margin-top: 5%;
+}
+
+.button-container input {
+    width: 20%;
+}
+
+.button-container>button {
+    padding: 2%;
+}
+
+.correct-answer {
+    background-color: #f18760;
+}
+
+.wrong-answer {
+    background-color: #c73b1e;
+}
+
+.true-button {
+    background-color: #63b36e;
+}
+
+.false-button {
+    background-color: #aa231e;
+}
+
+button {
+    margin: 5px;
+}

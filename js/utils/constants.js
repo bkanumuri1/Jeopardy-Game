@@ -1,0 +1,18 @@
+const GAME_STATUS = {
+    PLAYER_SELECTION: 'PLAYER_SELECTION',
+    PLAYER_ANSWERING: 'PLAYER_ANSWERING',
+    GAME_OVER: 'GAME_OVER',
+    LOADING: 'LOADING',
+};
+
+const QUESTION_STATUS = {
+    INIT: 'INIT',
+    OPEN: 'OPEN',
+    ANSWERED: 'ANSWERED',
+};
+
+const DIFFICULTY_LEVELS = {
+    EASY: 'easy',
+    MEDIUM: 'medium',
+    HARD: 'hard'
+};

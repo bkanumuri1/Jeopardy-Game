@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Play Jeopardy!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <h1> Let's play Jeopardy! </h1>
+    <div id="gameStartContainer">
+        <input id="playersInput" type="text" placeholder="Number of players (2-5)">
+        <input id="categoriesInput" type="text" placeholder="Number of categories(1-9)">
+        <input id="questionsInput" type="text" placeholder="Number of questions(1-5)">
+        <button id="start">Start</button>
+    </div>
+
+    <div id="gameContainer">
+        <div id="game"></div>
+        <table id="points"></table>
+    </div>
+    <!-- <script src="scripts.js"></script> -->
+    <script src="./js/utils/constants.js"></script>
+    <script src="./js/utils/index.js"></script>
+    <script src="./js/repository/questions_provider.js"></script>
+    <script src="./js/repository/questions_store.js"></script>
+    <script src="./js/repository/player_info_store.js"></script>
+    <script src="./js/service/index.js"></script>
+    <script src="./js/delivery/index.js"></script>
+</body>
+
+</html>
